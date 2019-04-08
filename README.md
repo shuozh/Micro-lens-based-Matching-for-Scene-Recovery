@@ -40,6 +40,13 @@ input: Complete light field image, where x,y changes in the angular domain first
 
 The image pre-processing calculation method for CVIA dataset input is provided. Other example input images from [HCI 4D Light Field Dataset](http://lightfieldgroup.iwr.uni-heidelberg.de/?page_id=713) and [4D Light Field Dataset (CVIA Konstanz & HCI Heidelberg)](http://hci-lightfield.iwr.uni-heidelberg.de/) can be found at: https://drive.google.com/drive/folders/0B5JdDRk-RkPXTEJDdmhuRWUyVkU?usp=sharing 
 
+### Instructions for depth_opt.m: 
+opts.NumView : Angular Resolution of Light Field
+
+opts.Dmin : Minimum disparity between two adjacent view * (opts.NumView-1)/2; If unknown，opts.Dmin can be set as -1.5*(opts.NumView-1)/2 for Lytro images;
+
+opts.Dmax—— Maximum disparity between two adjacent view * (opts.NumView-1)/2; If unknown，opts.Dmax can be set as 1.5*(opts.NumView-1)/2 for Lytro images;
+
 ### Time log:
 
 2019.04.08 The package released.

@@ -43,9 +43,9 @@ The image pre-processing calculation method for CVIA dataset input is provided. 
 ### Instructions for depth_opt.m: 
 opts.NumView : Angular Resolution of Light Field
 
-opts.Dmin : Minimum disparity between two adjacent view * (opts.NumView-1)/2; If unknown，opts.Dmin can be set as -1.5*(opts.NumView-1)/2 for Lytro images;
+opts.Dmin : Minimum disparity between two adjacent view × (opts.NumView-1)/2; If unknown，opts.Dmin can be set as -1.5×(opts.NumView-1)/2 for Lytro images;
 
-opts.Dmax—— Maximum disparity between two adjacent view * (opts.NumView-1)/2; If unknown，opts.Dmax can be set as 1.5*(opts.NumView-1)/2 for Lytro images;
+opts.Dmax—— Maximum disparity between two adjacent view × (opts.NumView-1)/2; If unknown，opts.Dmax can be set as 1.5×(opts.NumView-1)/2 for Lytro images;
 
 ### Time log:
 
